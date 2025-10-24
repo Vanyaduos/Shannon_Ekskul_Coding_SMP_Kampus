@@ -15,11 +15,6 @@ main {
     flex: 1;
     padding: 20px;
 }
-.contact form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 400px;
 nav ul {   
     list-style: none;
     display: flex;
@@ -45,6 +40,15 @@ nav ul li a.active {
     color: rgb(114, 97, 128);
 }
 
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
 footer {
     background-color: #393131;
     color: aliceblue;
@@ -56,3 +60,4 @@ footer {
     width: 100%;
 
 }
+
